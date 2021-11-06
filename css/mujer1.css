@@ -1,0 +1,143 @@
+.header {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+#logote {
+	display: block;
+	margin: auto;
+	filter: drop-shadow(3px 3px 1.5px #000);
+}
+
+#header ul {
+	list-style: none;
+	font-family:  'Mukta', sans-serif;
+	font-family: 'Open Sans Condensed', sans-seriF;
+	font-weight: lighter; 
+}
+
+.nav li a {
+	display: block;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 30px;
+	background-color: #FDFEFE;
+	color: #17202A;
+}
+
+.nav li a:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.nav > li {
+	float: left;
+	text-align:center;
+	width: 33%;
+}
+.nav li ul {
+	display: none;
+	position: absolute;
+}
+
+.nav li:hover > ul {
+	display: block;
+	width: 26%;
+}
+
+#contenedor{
+	border-radius: 25px;
+	border: solid 3px #000;
+
+	width: auto;
+	height: auto;
+	
+	margin: 5% 1.5% 1.5%;
+	padding: 15px;
+	
+	text-align: center;
+	box-shadow: 5px 5px 5px #F5B7B1;
+	background-color: #FFFFFF;
+}
+
+#contenedor_principal{
+	width:1024px;
+	height:auto;
+	position:relative;
+	margin:auto;
+}
+
+.contenedor_imagen_texto{
+	width:300px;
+	height:auto;
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	overflow:hidden;
+}
+
+.imagen, .texto{
+	width:100%;
+	height:auto;
+	position:relative;
+	display:inline-block;
+}
+
+.imagen1main img {
+	border-radius: 25px;
+	border: solid 3px #ABEBC6;
+	box-shadow: 3px 3px 3px #F5B7B1;
+}
+.imagen2main img {
+	border-radius: 25px;
+	border: solid 3px #5499C7;
+	box-shadow: 3px 3px 3px #F7DC6F;
+}
+.imagen3main img {
+	border-radius: 25px;
+	border: solid 3px #82E0AA;
+	box-shadow: 3px 3px 3px #F7DC6F;
+}
+
+h1{font-family: 'Dancing Script', cursive;
+	font-family: 'Mukta', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;}
+
+.texto, .texto2{
+	height:auto;
+	font-family:  'Mukta', sans-serif;
+	font-family: 'Open Sans Condensed', sans-seriF;
+	font-weight: bold; 
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 20px;
+	text-align:center;
+	text-decoration: none;
+}
+
+.texto {
+	margin-top: 0.8%;
+}
+.texto2 {
+	margin-top: -1%;
+}
+
+.precio {
+	height:auto;
+	font-family:  'Mukta', sans-serif;
+	font-family: 'Open Sans Condensed', sans-seriF;
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 30px;
+	margin-top: 0.8%;
+	text-align:center;
+	text-decoration: none;
+}
+
+h2{font-family: 'Dancing Script', cursive;
+	font-family: 'Mukta', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
